@@ -31,13 +31,13 @@
 // XHR, you may also just use the net/http.DefaultTransport, which
 // GopherJS replaces with an XHR-enabled version, making this package
 // useless most of the time.
-package xhr // import "honnef.co/go/js/xhr"
+package xhr
 
 import (
 	"errors"
 
+	"github.com/gernest/util"
 	"github.com/gopherjs/gopherjs/js"
-	"honnef.co/go/js/util"
 )
 
 // The possible values of Request.ReadyState.
